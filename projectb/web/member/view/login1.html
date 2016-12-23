@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login-1</title>
+<style type="text/css">
+   div login{
+      border : 1px solid black;
+      width : 40%;
+      height : 20%;
+   }
+   table {
+      width : 350px;
+      border-top : 1px solid black;
+      border-bottom : 1px solid black;
+      border-left : 1px solid black;
+      border-right : 1px solid black;
+      margin : 0 auto;
+   }
+   button {
+      height : 50px;
+   }
+   section { 
+   	height: 100px;
+   }
+</style>
+<script type="text/javascript" src="../../common/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('div#header').load('../../common/view/header.html');
+	});
+</script>
+</head>
+<body>
+<header>
+<br>
+<div id="header"></div>
+
+</header>
+<br>
+<section>
+</section>
+<div id="login"align="center">
+	<form action="">
+	  	<table>
+   			<tr><td>아이디 : </td><td><input type="text" readonly="readonly" /></td><td rowspan=2><button submit="">로그인</button></td></tr>
+ 			<tr><td>비밀번호 : </td><td><input type="password" readonly="readonly" /></td></tr>
+  		  	<tr ><td><a href="#">아이디 찾기</a></td><td><a href="#">비밀번호 찾기</a></td><td></td></tr>
+		</table>
+	</form>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>
